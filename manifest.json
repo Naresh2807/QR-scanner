@@ -1,0 +1,22 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "default_locale": "en",
+   "description": "QR scanner",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtgNEARR+kd/a7Qu/V4/ewZ+8nYOV969ass9VKj49BBs45E/8+pGY1eRCyIQ4QtgrfxcbqWTzTS0i1983BAFZfbSkVpY8oQwq0S+zAwWlfvCr7racf/U+zGkNooJMuyeSjWSUWd1Mq+BleGY+nQIXcSjkIFAgWV17r2wls4XSlGfnJpcg7YV1WGQlttkArz8cFO5AtYP2v+L5jTS0/HVZOFeDk3y32noHjMpYqcwdecfEiqmqhelFwaHciXtEXRL3B4zbe+LTiI+XWbcMXPRLdvDwvw9EFnd56h285vTJXnTY4Mm7CWAd1ygYfwAoXmjcn+zlwnsapmgQAXijgs6LbQIDAQAB",
+   "manifest_version": 3,
+   "name": "QR scanner",
+   "offline_enabled": true,
+   "permissions": [ "activeTab" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "3.0.0"
+}

@@ -1,0 +1,60 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="libs/fontawesome/css/fa-all.min.css" />
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="css/popup.min.css" />
+
+    <title></title>
+</head>
+
+<body class="p-1">
+
+    <div class="btn-group w-100">
+        <button class="btn btn-success btn-camera" disabled>
+            <i class="fa fa-video"></i>
+            <span data-loc="Camera"></span>
+        </button>
+        <button class="btn btn-info btn-image">
+            <i class="fa fa-image"></i>
+            <span data-loc="Image"></span>
+        </button>
+        <button class="btn btn-primary btn-tab">
+            <i class="fa fa-window-restore"></i>
+            <span data-loc="Tab"></span>
+        </button>
+    </div>
+
+    <div class="preview my-3">
+        <div class="d-none img-preview"></div>
+        <video class="d-none video-preview"></video>
+    </div>
+
+    <div class="list-result">
+
+    </div>
+
+
+
+    <template id="template-result-item">
+        <div class="item">
+            <a class="link">
+                <span class="text"></span>
+            </a>
+            <div class="buttons">
+                <button class="btn btn-light btn-sm btn-copy">
+                    <i class="fa fa-copy"></i>
+                </button>
+            </div>
+        </div>
+    </template>
+
+    <script type="module" src="js/common.js"></script>
+    <script type="module" src="js/popup.js"></script>
+</body>
+
+</html>

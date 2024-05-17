@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="libs/fontawesome/css/fa-all.min.css" />
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    
+    <title>Permission</title>
+</head>
+<body>
+    <div class="container py-5 text-center">
+        <div data-state="prompt">
+            <p data-loc="PermissionPage_Prompt"></p>
+
+            <p>
+                <img class="mw-100" src="/img/permission_prompt.png" />
+            </p>
+        </div>
+        <div data-state="granted">
+            <p data-loc="PermissionPage_Granted"></p>
+        </div>
+        <div data-state="blocked">
+            <p data-loc="PermissionPage_Denied"></p>
+
+            <p>
+                <img class="mw-100" src="/img/permission_unblock.png" />
+            </p>
+
+            <p data-loc="PermissionPage_UnblockInstruction"></p>
+        </div>
+    </div>
+
+    <script type="module" src="js/common.js"></script>
+    <script type="module" src="js/PermissionPage.js"></script>
+</body>
+</html>
