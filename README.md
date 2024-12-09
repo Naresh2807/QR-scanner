@@ -5,7 +5,12 @@
 The **QR Scanner Extension** is a lightweight browser extension designed to efficiently scan QR codes. Users can upload images, screenshots, or videos containing QR codes, and the extension processes them to extract the embedded information, such as URLs, contact details, or text. The extension is built using modern web technologies and adheres to the Chrome Manifest V3 framework.
 
 ---
+Usage
+---
+For users looking to install and use the QR Scanner extension on Microsoft Edge or Chrome, you can visit the following link:
 
+QR Scanner Extension - Microsoft Edge Addons
+---
 ## Features
 
 1. **QR Code Scanning**
