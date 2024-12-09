@@ -9,8 +9,8 @@ Usage
 ---
 For users looking to install and use the QR Scanner extension on Microsoft Edge or Chrome, you can visit the following link:
 
-<a herf="https://microsoftedge.microsoft.com/addons/detail/qr-scanner/lcjdgaccpmjiombhnkhjjdheejfkhkdm?hl=en-US" QR Scanner Extension - Microsoft Edge Addons >
----
+<a href="https://microsoftedge.microsoft.com/addons/detail/qr-scanner/lcjdgaccpmjiombhnkhjjdheejfkhkdm?hl=en-US">QR Scanner Extension - Microsoft Edge Addons</a>
+
 ## Features
 
 1. **QR Code Scanning**
